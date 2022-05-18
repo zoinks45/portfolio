@@ -11,21 +11,36 @@ html body{
     padding: 0;
     margin: 0;
 }
-
+/*main text color and main BGColor*/
 body {
     color: var(--mainText);
     background-color: var(--mainBGColor);
     font-family: 'Times New Roman', Times, serif;
 }
 
-header {
+.header {
     padding:  20px 35px;
     background-color: var(--headerColor)
 }
 
-header h1 a {
+.header h1 {
+    text-align: center;
+}
+
+.header h1 a {
     color:var(--mainText);
     font-family: 'Times New Roman', Times, serif;
+}
+
+.header ul {
+    position: sticky;
+    top:0;
+}
+
+.header li {
+    padding: 10px;
+    float: right;
+    display:inline
 }
 
 nav ul li a {
@@ -40,4 +55,13 @@ ul {
     list-style: none;
 }
 
+.main {
+    text-align: center;
+}
 
+@media screen and(max-width:1200px){
+    .main{
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
