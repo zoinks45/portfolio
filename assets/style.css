@@ -1,0 +1,43 @@
+:root {
+    --mainBGColor:#282828;
+    --mainText:white;
+    --headerColor:#3500D3;
+
+
+
+}
+
+html body{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: var(--mainText);
+    background-color: var(--mainBGColor);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    padding:  20px 35px;
+    background-color: var(--headerColor)
+}
+
+header h1 a {
+    color:var(--mainText);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul li a {
+    color: var(--mainText);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
