@@ -17,10 +17,15 @@ body {
     background-color: var(--mainBGColor);
     font-family: 'Times New Roman', Times, serif;
 }
-
+/*Header and nav styles*/
 .header {
     padding:  20px 35px;
-    background-color: var(--headerColor)
+    background-color: var(--headerColor);
+    display: flex;
+    position: sticky;
+    top: 0;
+    
+   
 }
 
 .header h1 {
@@ -30,11 +35,6 @@ body {
 .header h1 a {
     color:var(--mainText);
     font-family: 'Times New Roman', Times, serif;
-}
-
-.header ul {
-    position: sticky;
-    top:0;
 }
 
 .header li {
