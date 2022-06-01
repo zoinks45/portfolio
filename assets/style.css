@@ -59,6 +59,22 @@ ul {
     text-align: center;
 }
 
+.content-wrapper {
+    flex-wrap: wrap;
+}
+
+.thumbnail {
+    padding: 50px;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .thumbnail:hover {
+    transform: scale(1.5);
+  }
+
 @media screen and(max-width:1200px){
     .main{
         width: 1200px;
